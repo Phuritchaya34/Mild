@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'kanit';
+    src: url(/webcake/assets/font/Kanit-Regular.ttf);
+}
+
+.full-screen{
+    height: 100vh;
+}
+.hero{
+    background-image: url('/webcake/assets/img/pexels-polina-tankilevitch-4109997.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-content{
+
+}
